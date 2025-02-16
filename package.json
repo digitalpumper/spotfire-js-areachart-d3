@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "server": "mods-dev-server dist",
-        "build": "webpack --mode production --no-devtool",
+        "build": "chmod +x node_modules/.bin/webpack && npx webpack --mode production --no-devtool",
         "build-watch": "webpack --watch",
         "start": "npx http-server dist -p $PORT -a 0.0.0.0"
     },
