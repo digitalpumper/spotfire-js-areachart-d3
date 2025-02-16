@@ -3,12 +3,12 @@
     "version": "1.0.1",
     "description": "",
     "main": "index.js",
-    "scripts": {
-        "server": "mods-dev-server dist",
-        "build": "chmod +x node_modules/.bin/webpack && npx webpack --mode production --no-devtool",
-        "build-watch": "webpack --watch",
-        "start": "npx http-server dist -p $PORT -a 0.0.0.0"
-    },
+"scripts": {
+  "server": "mods-dev-server dist",
+  "build": "chmod +x node_modules/.bin/webpack && npx webpack --mode production --no-devtool",
+  "build-watch": "chmod +x node_modules/.bin/webpack && npx webpack --watch",
+  "start": "npx http-server dist -p $PORT -a 0.0.0.0"
+},
     "author": "dcroitor, dhategan",
     "license": "ISC",
     "devDependencies": {
